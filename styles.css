@@ -25,7 +25,14 @@ li{
     list-style: none;
     padding: 1rem;
 }
-
+@media(orientation:portrait){
+   li{
+       padding:1rem 3rem 1rem 1rem;
+   }
+   ul{
+       margin: auto;
+   }
+}
 div{
     margin:2rem auto;
     width: 80%;
